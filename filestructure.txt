@@ -1,0 +1,35 @@
+/todo-backend
+  /src
+    app.ts
+    server.ts
+    config.ts
+    routes/
+      auth.ts
+      todos.ts
+    middleware/
+      auth.ts
+      error.ts
+    models/
+      User.ts
+      Todo.ts
+  .env
+  package.json
+  tsconfig.json
+
+/todo-frontend
+  /src
+    main.tsx
+    App.tsx
+    api/
+      client.ts
+      auth.ts
+      todos.ts
+    pages/
+      Login.tsx
+      Signup.tsx
+      Todos.tsx
+    hooks/
+      useAuth.ts
+    index.css
+  package.json
+  vite.config.ts
