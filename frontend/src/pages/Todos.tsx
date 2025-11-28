@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { getTodos, createTodo, updateTodo, deleteTodo } from "../api/todos";
 import { useAuth } from "../hooks/useAuth";
 

@@ -6,7 +6,13 @@ import { errorHandler } from "./middleware/error";
 
 
 const app = express();
-app.use(cors());
+
+const corsOptions = {
+  origin: process.env.FRONTEND_URL || "http://localhost:5173", // Vercel URL will be in env
+  optionsSuccessStatus: 200
+};
+app.use(cors(corsOptions));
+
 app.use(express.json());
 
 app.get("/", (req, res) => {
