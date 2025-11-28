@@ -168,7 +168,7 @@ Before you begin, ensure you have the following installed:
 * **JWT-based authentication** flow
 * **Protected routes** (middleware)
 * Axios **interceptors**
-* **Chakra UI** component library
+
 * **Zustand** for state management
 * **React Router** for navigation
 * **MongoDB schema modeling** (Mongoose)
@@ -182,7 +182,7 @@ This project helped me understand:
 * How **frontend & backend communicate** effectively.
 * The complete **JWT flow** (signup → login → protected routes).
 * **State management** best practices.
-* **Styling** with a modern library like Chakra UI.
+
 * Designing simple and **scalable APIs**.
 
 It’s a great starting point for anyone learning **full-stack development**.
