@@ -1,5 +1,8 @@
 ## 📝 Todo App – Full Stack (React + Node + TypeScript)
 
+<!-- [![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge&logo=vercel)](https://your-live-demo-url.com)  -->
+<!--- TODO: Add your live demo link here -->
+
 A clean and modern **Todo Management Application** built using a **full-stack TypeScript** setup.
 
 It includes **authentication**, **password update**, and complete **CRUD operations** for todos — all wrapped inside a smooth, **responsive UI** built with **Chakra UI**.
@@ -40,25 +43,31 @@ This project was created as a learning-oriented full-stack assignment and follow
 
 
 ---
-
 ### 📁 Folder Structure
-project/
-  ├── backend/
-  │   ├── src/
-  │   │   ├── routes/
-  │   │   ├── models/
-  │   │   ├── middleware/
-  │   │   ├── app.ts
-  │   │   └── server.ts
-  │   └── package.json
-  └── frontend/
-      ├── src/
-      │   ├── pages/
-      │   ├── api/
-      │   ├── hooks/
-      │   ├── App.tsx
-      │   └── main.tsx
-      └── package.json
+
+* **project/**
+    * **backend/**
+        * `package.json`
+        * **src/**
+            * `app.ts`, `server.ts`
+            * `routes/`
+            * `models/`
+            * `middleware/`
+    * **frontend/**
+        * `package.json`
+        * **src/**
+            * `App.tsx`, `main.tsx`
+            * `pages/`
+            * `api/`
+            * `hooks/`
+
+### ✅ Prerequisites
+
+Before you begin, ensure you have the following installed:
+
+- [Node.js](https://nodejs.org/en/) (v14 or later recommended)
+- [npm](https://www.npmjs.com/) (comes with Node.js)
+- [MongoDB](https://www.mongodb.com/try/download/community) (or a MongoDB Atlas account)
 
 ---
 
@@ -140,7 +149,7 @@ project/
 | :--- | :--- | :--- |
 | `POST` | `/api/auth/signup` | Register a new user |
 | `POST` | `/api/auth/login` | Login and get JWT token |
-| `POST` | `/api/auth/update-password` | Change user password |
+
 
 #### Todos
 
